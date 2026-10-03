@@ -1,22 +1,24 @@
-# Projet Online Retail
+# Projet Online Retail : analyse de ventes e-commerce (Python / SQL)
 
-Nettoyage et analyse Python/SQL d'un jeu de données de transactions e-commerce britannique (~542 000 lignes, `online_retail.csv`).
+Nettoyage et analyse d'un jeu de données de transactions e-commerce britannique (~542 000 lignes, `online_retail.csv`). Projet d'équipe réalisé pendant la formation Data Analyst (Simplon).
 
 ## Objectif
 
-Nettoyer les données (valeurs manquantes, avoirs/retours, doublons), puis analyser les ventes via Python (pandas) et SQL.
+Nettoyer les données (valeurs manquantes, avoirs et retours, doublons), puis analyser les ventes avec Python (pandas) et SQL : chiffre d'affaires par pays, saisonnalité mensuelle et horaire, produits et clients, puis formuler des recommandations business.
 
-## Structure du dossier
+## Contenu du dépôt
 
-- `data/` — fichier source `online_retail.csv` et base `online_retail.db`
-- `notebooks/` — notebooks de nettoyage et d'analyse (dont `Untitled.ipynb`, à renommer par ex. `nettoyage_online_retail.ipynb`)
-- `scripts SQL/` — requêtes SQL du projet de groupe
-- `rapports/` — analyse finale et supports pédagogiques associés (TP)
+| Dossier | Description |
+|---|---|
+| `data/` | Fichier source `online_retail.csv`. |
+| `notebooks/` | Notebooks de nettoyage et d'analyse (`Projet_python_SQL.ipynb` et versions de travail). |
+| `scripts SQL/` | Requêtes SQL du projet de groupe. |
+| `rapports/` | Rapport d'analyse final (PDF) et supports du TP. |
 
-## Remarques
+## Outils
 
-Le notebook principal est actuellement nommé `Untitled.ipynb` — un renommage est recommandé avant publication sur GitHub.
+Python (pandas, Matplotlib, Plotly), SQL (SQLite, DBeaver), Jupyter.
 
 ## Auteurs
 
-Zohair Nazhaoui, en groupe (Jordan, Laurie, Ludivine).
+Zohair Nazhaoui, en groupe (Jordan, Laurie, Ludivine). Dépôt forké par Loïc Boni.
